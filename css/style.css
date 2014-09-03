@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+body{margin:0; padding:0;}
+#outer_wrapper{margin:0 auto; padding:0; width:1200px; height:770px; background:#CCC; }
+#left_wrapper{margin:0; padding:0; height:100%; width:222px; float:left; background:#343645 }
+#right_wrapper{margin:0; padding:0; height:100%; width:978px; float:left; background:#f4f4f4}
+#welcome_wrapper{margin:0; padding:0; height:88px; width: 222px; border:1px solid #CCC; background:#a589d4;}
+#user_image{margin:8px 0 12px 12px; padding:0; height:68px; width:69px; border:1px solid #666; float:left;}
+#user{margin:0; padding:20px 5px; height:48px; width:127px;border:1px solid #666; float:left;}
+#top_space{margin:0; padding:0; height:34px; width:222px; backface-visibility:visible;}
+.shotcuts_wrapper{margin:0; padding:0; height:46px; width:222px; border:1px solid #999;}
+.logo{margin:0 0 0 17px; padding:0; height:auto; width:40px; border:1px solid #999; float:left;}
+.shotcut{margin:0; padding:10px 5px 0 5px; height:32px; width:151px; border:1px solid #333; float:left;}
+#header_wrapper{margin:15px 10px 0 10px; padding:0; height:78px; width:956px; border:1px solid #999; background:#333;}
+#body_wrapper{margin:0; padding:0; height:350px; width:978px;}
+#list_wrapper{margin:0 84.5px 0 84.5px; padding:0; height:348px; width:807px; /*border:1px solid #666;*/}
+.list{margin:0; padding:0; height:348px; width:159.4px; /*border:1px solid #666;*/ float:left;}
+.list_logo{margin:150px 30px 0 30px; padding:0; height:99px; width:98px; border:1px solid #666;}
+.logo_name{margin:0; padding:10px 5px 0 5px; height:22px; width:149.4px; border:1px solid #666;}
+#project_wrapper{margin:0 40px 0 40px; padding:0; height:260px; width:898px; border:1px solid #999; background:#FFF;}
+#project_head{margin:0; padding:0; height:52px; width:898px; border-bottom:1px solid #666;}
+#project_title{margin:0; padding:0; height:52px; width:809px;float:left;}
+#project_tital_logo{margin:0; padding:0; height:auto; width:auto; float:left;}
+#project_add{margin:0; padding:0; height:auto; width:auto;float:left;}
+.project_lists{margin:0; padding:0; height:102px; width:896px; border:1px solid #CCC;}
+#footer_wrapper{margin:11px 0 0 0; padding:0; height:50px; width:976px; border:1px solid #666;}
