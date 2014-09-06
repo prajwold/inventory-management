@@ -2,106 +2,115 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Rb metal udhyog</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<title>Inventory-Management</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
 <link rel="stylesheet" type="text/css" href="css/style.css"/>
-
 </head>
 
 <body>
-<div id="outer_wrapper">
-	<div id="left_wrapper">
-    	<div id="welcome_wrapper">
-        	<div id="user_image">
-            </div>
-        	<div id="user">
-            	Welcome Prajwol
-                Manager
-            </div>
-        </div>
-        <div id="top_space">
-        </div>
-        <div class="shotcuts_wrapper">
-        	<div class="logo">
-            </div>
-            <div class="shotcut">
-            	Dashboard
-            </div>
-        </div>
-        <div class="shotcuts_wrapper">
-        	<div class="logo">
-            </div>
-            <div class="shotcut">
-            	Reports
-            </div>
-        </div>
-        <div class="shotcuts_wrapper">
-        	<div class="logo">
-            </div>
-            <div class="shotcut">
-            	Settings
-            </div>
-        </div>
-    </div>
-    	
-    
-    <div id="right_wrapper">
-    	<div id="header_wrapper">
-        </div>
-        <div id="body_wrapper">
-        	<div id="list_wrapper">
-            	<div class="list">
-                	<div class="list_logo">
-                    </div>
-                    <div class="logo_name">
-                    </div>
-                </div>
-                <div class="list">
-                	<div class="list_logo">
-                    </div>
-                    <div class="logo_name">
-                    </div>
-                </div><div class="list">
-                	<div class="list_logo">
-                    </div>
-                    <div class="logo_name">
-                    </div>
-                </div><div class="list">
-                	<div class="list_logo">
-                    </div>
-                    <div class="logo_name">
-                    </div>
-                </div><div class="list">
-                	<div class="list_logo">
-                    </div>
-                    <div class="logo_name">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="project_wrapper">
-        	<div id="project_head">
+<!-- fluid container for full width layout ----->
+<div class="container-fluid">
+  	<!-- -- main row ---->
+   	<div class="row">
+    	<!-- left box column --->
+        <div class="col-sm-4 col-md-4 col-lg-3 left_box">
+        	<!---- welcome note row --->
+            <div class="row welcome_bg">
+            	<!-- user image on welcome note  ---->
+                <div class="col-sm-4 col-md-4 col-lg-4 user_image">
+                <img class="img-responsive img-circle" src="images/stv_job.png" width="69" height="68" alt="stv" />
+                </div><!-- /end user image on welcome note  ---->
+                
+                
+                
+                <!-- user on welcome note  ---->
+                <div class="col-sm-8 col-md-8 col-lg-8 user">
+                	<h4> Welcome Prajwol </h4>
+                    <p> Manager </p>
+                </div> <!--/end user on welcome note  ---->
+                
+                
+
             
-                <div id="project_tital_logo">
+            </div><!---- /end welcome note row --->
+            
+            <!-----row quicklink --->
+            <div class="row">
+            	<!---- quicklink col--->
+                <div class="col-sm-12 col-md-12 col-lg-12 quicklink">
+                	<ul>
+                    	<li><a href="#"> Dashboard  </a></li>
+                        <li><a href="#"> Report  </a></li>
+                        <li><a href="#"> Settings  </a></li>
+                    </ul>
+                
+                </div><!---- /end quicklink col--->
+            </div><!-----/end row quicklink --->
+            
+        
+        
+        </div><!--/end left box column -->
+        
+<!------------------------------////////////////////////////////////////////////////---------------------------->        
+        
+        <!-- right box column --->
+        <div class="col-sm-8 col-md-8 col-lg-9 right_box">
+        	<!---- row for menu --->
+            <div class="row">
+            	<!----menu column ------------>
+            	<div class="col-sm-12 col-md-12 col-lg-12 menu">
+                	
+                        <ul class="nav nav-tabs">
+                            
+                            <li class="active"><a href="rb_metal_udhyoge.php">Home</a></li>
+                            <li><a href="dashboard.php">Dashboard</a></li>
+                        </ul>
                     
-                </div>
-                <div id="project_title">
-                    Project Title
-                </div>
-                <div id="project_add">
-                </div>
-            </div>
-            <div class="project_lists">
-            </div>
-            <div class="project_lists">
-            </div>
+                
+                </div><!----/end menu col ----->
             
-        </div>
-        <div id="footer_wrapper">
-        </div>
-    	
-    </div>
-
-
-</div>
+            </div><!----/end menu row--->
+        	
+           	<!---- jumbotron for main body lists --->
+            <div class="jumbotron jumbotron_custom">
+            	<!--- row for body list ---->
+                <div class="row">
+                	<div class="col-sm-2 col-md-2 col-lg-2 box">
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 box">
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 box">
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 box">
+                    </div>
+                    <div class="col-sm-2 col-md-2 col-lg-2 box">
+                    </div>
+                    
+                    
+                </div><!---- /end body list row -->
+           </div><!---/end jumbotron---->
+           
+           <!--- row project --->
+           <div class="row">
+           	
+            <div class="col-sm-12 col-md-12 col-lg-12 project">
+            	<div class="row">
+            		
+                </div> 
+            </div>
+           
+           </div><!----/end project row --->
+        
+        </div><!--/end right box column -->
+        
+        
+        
+  	</div><!----/end of main row -->
+</div><!-- /fluid container layout ends ---> 
+    
+    
+    
+    
 </body>
 </html>
