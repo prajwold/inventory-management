@@ -1,13 +1,33 @@
-.left_box{background:#343645; border:1px solid #000; min-height:690px;}
-.user_image, .user{border:1px solid #999; color:#f4f4f4;}
+@charset "utf-8";
+/* CSS Document */
+body{overflow-x:hidden; background:#fff;}
+
+.left_box{background:#343645; border:1px solid #ccc; min-height:90px;}
+.user_image{/*border:1px solid #999;*/ box-sizing:border-box; width:69px; height:68px; padding:10px;} 
+.user{/*border:1px solid #999;*/ box-sizing:border-box;}
+
+.user_image img{border-radius:50%; vertical-align:central;}
 .welcome_bg{background:#a589d4;}
-.quicklink{margin-top:10px; min-height:600px;}
+.welcome_bg a {text-decoration:none;}
+.quicklink{margin-top:10px; height:684px; }
+.sidebar_menu{margin:0; padding:0;}
 .quicklink li{list-style:none; padding:15px; color:#f4f4f4; border-bottom:1px solid #CCC;}
 
 
-.right_box{background:#f4f4f4; border:1px solid #000; min-height:690px;}
+.right_box{background:#f4f4f4; border-bottom:1px solid #ccc; min-height:770px;}
 .menu{margin-top:30px;}
-.jumbotron_custom{padding: 100px !important; margin:10px 0 30px 0 !important;}
-.box{border:1px solid #999; color:#f4f4f4; min-height:150px; margin:5px;}
 
-.project{border:1px solid #CCC; min-height:217px;}
+.jumbotron_custom{padding:100px 100px 78px 100px; margin:10px 0 30px 0 !important; }
+
+.box{border:1px solid #999; color:#f4f4f4; min-height:150px; }
+
+
+.project{margin:20px 20px 10px 20px; border:1px solid #CCC; min-height:250px; }
+
+.footer{/*border:1px solid #999;*/ background-color:#ddd; min-height:50px; }
+
+
+/******************************** fonts *********************************************/
+
+.welcome_bg h1{color:#f4f4f4; font-size:16px; font-family:Arial, Helvetica, sans-serif;}
+.welcome_bg a {color:#f4f4f4; font-size:12px; font-family:Arial, Helvetica, sans-serif;}

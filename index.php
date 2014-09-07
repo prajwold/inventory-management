@@ -13,40 +13,43 @@
 <div class="container-fluid">
   	<!-- -- main row ---->
    	<div class="row">
-    	<!-- left box column --->
-        <div class="col-sm-4 col-md-4 col-lg-3 left_box">
+    	<!-- left box column for welcome notes and quicklink --->
+        <div class="col-sm-4 col-md-3 col-lg-2 left_box">
         	<!---- welcome note row --->
             <div class="row welcome_bg">
+            <a href="#">
             	<!-- user image on welcome note  ---->
-                <div class="col-sm-4 col-md-4 col-lg-4 user_image">
-                <img class="img-responsive img-circle" src="images/stv_job.png" width="69" height="68" alt="stv" />
+                <div class="pull-left user_image">
+                <img class="img-responsive img-circle" src="images/stv_job.png" width="59" height="58" alt="stv" />
                 </div><!-- /end user image on welcome note  ---->
                 
                 
                 
                 <!-- user on welcome note  ---->
-                <div class="col-sm-8 col-md-8 col-lg-8 user">
-                	<h4> Welcome Prajwol </h4>
+                <div class="pull-left user">
+                	<h1>hello, Prajwol </h1>
                     <p> Manager </p>
                 </div> <!--/end user on welcome note  ---->
                 
                 
 
-            
+            </a>
             </div><!---- /end welcome note row --->
             
             <!-----row quicklink --->
             <div class="row">
             	<!---- quicklink col--->
-                <div class="col-sm-12 col-md-12 col-lg-12 quicklink">
-                	<ul>
-                    	<li><a href="#"> Dashboard  </a></li>
-                        <li><a href="#"> Report  </a></li>
-                        <li><a href="#"> Settings  </a></li>
-                    </ul>
-                
+                <div class=" hidden-xs col-sm-12 col-md-12 col-lg-12">
+                	<div class="quicklink">
+                        <ul class="sidebar_menu">
+                            <li><a href="#"> Dashboard  </a></li>
+                            <li><a href="#"> Report  </a></li>
+                            <li><a href="#"> Settings  </a></li>
+                        </ul>
+                	</div>
                 </div><!---- /end quicklink col--->
             </div><!-----/end row quicklink --->
+             
             
         
         
@@ -55,7 +58,7 @@
 <!------------------------------////////////////////////////////////////////////////---------------------------->        
         
         <!-- right box column --->
-        <div class="col-sm-8 col-md-8 col-lg-9 right_box">
+        <div class="col-sm-8 col-md-9 col-lg-10 right_box">
         	<!---- row for menu --->
             <div class="row">
             	<!----menu column ------------>
@@ -76,15 +79,25 @@
             <div class="jumbotron jumbotron_custom">
             	<!--- row for body list ---->
                 <div class="row">
-                	<div class="col-sm-2 col-md-2 col-lg-2 box">
+                	<div class="col-sm-2 col-md-2 col-lg-2">
+                    	<div class="box">
+                        </div>
                     </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2 box">
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                    	<div class="box">
+                        </div>
                     </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2 box">
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                    	<div class="box">
+                        </div>
                     </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2 box">
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                    	<div class="box">
+                        </div>
                     </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2 box">
+                    <div class="col-sm-2 col-md-2 col-lg-2">
+                    	<div class="box">
+                        </div>
                     </div>
                     
                     
@@ -94,8 +107,8 @@
            <!--- row project --->
            <div class="row">
            	
-            <div class="col-sm-12 col-md-12 col-lg-12 project">
-            	<div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+            	<div class="project">
             		
                 </div> 
             </div>
@@ -104,9 +117,11 @@
         
         </div><!--/end right box column -->
         
-        
+       
+
         
   	</div><!----/end of main row -->
+    
 </div><!-- /fluid container layout ends ---> 
     
     
