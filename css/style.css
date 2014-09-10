@@ -18,11 +18,12 @@ body{overflow-x:hidden; background:#fff;}
 .menu{margin-top:30px;}
 
 .jumbotron_custom{padding:100px 100px 78px 100px; margin:10px 0 30px 0 !important; }
+.box_wrapper{padding:0; /*border:1px solid #999;*/ min-height:100px; }
+.box{padding:5px 0 5px 25px; margin:0; min-height:100px; }
+.box_label{padding:0; margin:0px; text-align:center; height:100%; width:100%; /*border:1px solid #999;*/}
 
-.box{border:1px solid #999; color:#f4f4f4; min-height:150px; }
 
-
-.project{margin:20px 20px 10px 20px; border:1px solid #CCC; min-height:250px; }
+.project{margin:20px 20px 10px 20px; border:1px solid #CCC; min-height:250px; background:#ffffff;}
 
 .footer{/*border:1px solid #999;*/ background-color:#ddd; min-height:50px; }
 

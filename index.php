@@ -14,7 +14,7 @@
   	<!-- -- main row ---->
    	<div class="row">
     	<!-- left box column for welcome notes and quicklink --->
-        <div class="col-sm-4 col-md-3 col-lg-2 left_box">
+        <div class="col-sm-12 col-md-3 col-lg-2 left_box">
         	<!---- welcome note row --->
             <div class="row welcome_bg">
             <a href="#">
@@ -39,7 +39,7 @@
             <!-----row quicklink --->
             <div class="row">
             	<!---- quicklink col--->
-                <div class=" hidden-xs col-sm-12 col-md-12 col-lg-12">
+                <div class=" hidden-xs hidden-sm col-md-12 col-lg-12">
                 	<div class="quicklink">
                         <ul class="sidebar_menu">
                             <li><a href="#"> Dashboard  </a></li>
@@ -58,7 +58,7 @@
 <!------------------------------////////////////////////////////////////////////////---------------------------->        
         
         <!-- right box column --->
-        <div class="col-sm-8 col-md-9 col-lg-10 right_box">
+        <div class="col-sm-12 col-md-9 col-lg-10 right_box">
         	<!---- row for menu --->
             <div class="row">
             	<!----menu column ------------>
@@ -76,33 +76,65 @@
             </div><!----/end menu row--->
         	
            	<!---- jumbotron for main body lists --->
-            <div class="jumbotron jumbotron_custom">
-            	<!--- row for body list ---->
-                <div class="row">
-                	<div class="col-sm-2 col-md-2 col-lg-2">
-                    	<div class="box">
+            <div class="row">
+            	<div class= "jumbotron_custom">
+                    <!--- row for body list ---->
+                    <div class="row">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="box_wrapper">
+                                <div class="box">
+                                    <img class="img-responsive" src="images/vendor.png" alt="vendor" />
+                                </div>
+                                <div class="box_label">
+                                    <h4> Vendor </h4>
+                                </div>
+                           	</div>
                         </div>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                    	<div class="box">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="box_wrapper">
+                                <div class="box">
+                                    <img class="img-responsive" src="images/purchase_order.png" alt="purchase" />
+                                </div>
+                                <div class="box_label">
+                                    <h4> Purchase order </h4>
+                                </div>
+                           	</div>
                         </div>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                    	<div class="box">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="box_wrapper">
+                                <div class="box">
+                                    <img class="img-responsive" src="images/inventory.png" alt="inventory" />
+                                </div>
+                                <div class="box_label">
+                                    <h4> Inventory </h4>
+                                </div>
+                           	</div>
                         </div>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                    	<div class="box">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                            <div class="box_wrapper">
+                                <div class="box">
+                                    <img class="img-responsive" src="images/sales_order.png" alt="sales" />
+                                </div>
+                                <div class="box_label">
+                                    <h4> Sales Order </h4>
+                                </div>
+                           	</div>
                         </div>
-                    </div>
-                    <div class="col-sm-2 col-md-2 col-lg-2">
-                    	<div class="box">
+                        <div class="col-sm-2 col-md-2 col-lg-2">
+                         	<div class="box_wrapper">
+                                <div class="box">
+                                    <img class="img-responsive" src="images/customer.png" alt="customer" />
+                                </div>
+                                <div class="box_label">
+                                    <h4> Customer </h4>
+                                </div>
+                           	</div>
                         </div>
-                    </div>
-                    
-                    
-                </div><!---- /end body list row -->
-           </div><!---/end jumbotron---->
+                        
+                        
+                    </div><!---- /end body list row -->
+           		</div><!---/end jumbotron---->
+           </div>
            
            <!--- row project --->
            <div class="row">
