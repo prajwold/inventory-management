@@ -33,9 +33,14 @@ body{overflow-x:hidden; background:#fff;}
 .box_label{padding:0; margin:0px; text-align:center; height:100%; width:100%; /*border:1px solid #999;*/}
 
 
-.project{margin:20px 20px 10px 20px; border:1px solid #CCC; min-height:250px; background:#ffffff;}
+.project_wrapper{margin:20px 20px 10px 20px; border:1px solid #CCC; min-height:250px; background:#ffffff;}
 
-.footer{/*border:1px solid #999;*/ background-color:#ddd; min-height:50px; }
+.head{margin:0px 5px 5px 5px; padding:10px; border-bottom:1px solid #999; min-height:10px; width:98%;}
+.project_img{padding:5px; height:23px; width:;23px; float:left;}
+
+.project_add{margin:0; padding:5px; width:26px; height:25px; float:right;}
+
+.footer{margin:0; padding:10px 20px 10px 0; /*border:1px solid #999; */ min-height:20px; }
 
 
 /******************************** fonts *********************************************/
@@ -44,3 +49,7 @@ body{overflow-x:hidden; background:#fff;}
 .welcome_bg a {color:#f4f4f4; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
 .quicklink li{font-size:18px; font-family:Arial, Helvetica, sans-serif;}
 .box_label{color:#968d8d;}
+
+.heading{font-size:18px; font-family:Roboto, "Roboto Condensed"; font-size:20px; font-weight:normal; color:#8a8a8a; }
+
+.footer{text-align:end; font-family:Roboto, "Roboto Condensed"; font-size:16px; font-weight:lighter; color:#8a8a8a;}

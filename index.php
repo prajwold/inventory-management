@@ -175,19 +175,46 @@
            <div class="row">
            	
             <div class="col-sm-12 col-md-12 col-lg-12">
-            	<div class="project">
+            	<div class="project_wrapper">
+                	<div class="row head">
+                    <div class="col-sm-11 col-md-11 col-lg-11">
+                    	<a href="#">
+                            <div class="project_img">
+                                <img class="img-responsive pull-left" src="images/project_image.png" alt="project_img" />
+                            </div>
+                            <!--project heding -->
+                            <div class="heading pull-left">
+                                Project
+                            </div><!---/end heading --->
+                        </a>
+                    </div>
+                    
+                    <div class="col-sm-1 col-md-1 col-lg-1">
+                    	<!--project add image -->
+                        <div class="project_add">
+                        	<a href="#"> <img src="images/project_add.png" alt="project_add" /> </a>
+                        </div><!---/end project add img --->
+                    </div>
+                    
+                    </div>
             		
                 </div> 
             </div>
            
            </div><!----/end project row --->
+           	
+            
+         	<div class="footer">
+             	Copyright &copy; 2014 Prajwol Dangol
+            </div>
         
         </div><!--/end right box column -->
         
-       
+       	
 
         
   	</div><!----/end of main row -->
+    
     
 </div><!-- /fluid container layout ends ---> 
     
