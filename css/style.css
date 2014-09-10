@@ -2,6 +2,8 @@
 /* CSS Document */
 body{overflow-x:hidden; background:#fff;}
 
+
+
 .left_box{background:#343645; border:1px solid #ccc; min-height:90px;}
 .user_image{/*border:1px solid #999;*/ box-sizing:border-box; width:69px; height:68px; padding:10px;} 
 .user{/*border:1px solid #999;*/ box-sizing:border-box;}
@@ -9,9 +11,17 @@ body{overflow-x:hidden; background:#fff;}
 .user_image img{border-radius:50%; vertical-align:central;}
 .welcome_bg{background:#a589d4;}
 .welcome_bg a {text-decoration:none;}
+
 .quicklink{margin-top:10px; height:684px; }
 .sidebar_menu{margin:0; padding:0;}
-.quicklink li{list-style:none; padding:15px; color:#f4f4f4; border-bottom:1px solid #CCC;}
+.side_menu{margin:0; padding:0; height:auto; width:auto; /*border:1px solid #F00;*/}
+.li_img{margin:0; padding:5px; height:31px; width:31px;}
+.menu_label{margin:0; padding:5px; height:auto; width:auto;}
+
+.quicklink li{list-style:none; padding:0px; color:#f4f4f4;display:block; border-bottom:1px solid #fff;}
+.quicklink a{color:#ffffff; display:block; padding:15px;}
+.quicklink li a:hover{text-decoration:none; display:block; background:#1e202c;}
+
 
 
 .right_box{background:#f4f4f4; border-bottom:1px solid #ccc; min-height:770px;}
@@ -32,3 +42,5 @@ body{overflow-x:hidden; background:#fff;}
 
 .welcome_bg h1{color:#f4f4f4; font-size:16px; font-family:Arial, Helvetica, sans-serif;}
 .welcome_bg a {color:#f4f4f4; font-size:12px; font-family:Arial, Helvetica, sans-serif;}
+.quicklink li{font-size:18px; font-family:Arial, Helvetica, sans-serif;}
+.box_label{color:#968d8d;}

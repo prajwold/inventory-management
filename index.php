@@ -42,9 +42,44 @@
                 <div class=" hidden-xs hidden-sm col-md-12 col-lg-12">
                 	<div class="quicklink">
                         <ul class="sidebar_menu">
-                            <li><a href="#"> Dashboard  </a></li>
-                            <li><a href="#"> Report  </a></li>
-                            <li><a href="#"> Settings  </a></li>
+                            <li>
+                            	<a href="#"> 
+                                	<span class="side_menu"> 
+                                    	<span class="li_img"> 
+                                        	<img src="images/dashboard.png" /> 
+                                       	</span> 
+                                        <span class="label">
+                                        	 Dashboard
+                                       	</span> 
+                                 	</span>
+                             	</a>
+                         	</li>
+                            
+                            <li>
+                            	<a href="#"> 
+                                	<span class="menu"> 
+                                    	<span class="li_img"> 
+                                        	<img src="images/report.png" /> 
+                                       	</span> 
+                                        <span class="label">
+                                        	Report  
+                                       	</span> 
+                                 	</span>
+                             	</a>
+                         	</li>
+                            
+                            <li>
+                            	<a href="#"> 
+                                	<span class="menu"> 
+                                    	<span class="li_img"> 
+                                        	<img src="images/settings.png" /> 
+                                       	</span> 
+                                        <span class="label">
+                                        	Settings  
+                                       	</span> 
+                                 	</span>
+                             	</a>
+                         	</li>
                         </ul>
                 	</div>
                 </div><!---- /end quicklink col--->
